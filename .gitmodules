@@ -1,0 +1,3 @@
+[submodule "sub-module"]
+	path = sub-module
+	url = git@github.com:JarBin24/sub-project.git
