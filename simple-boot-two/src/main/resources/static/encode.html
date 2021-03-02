@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script language="javascript" type="text/javascript" src="./jquery-1.9.1.min.js"></script>
+	<script language="javascript" type="text/javascript" src="http://upass.10jqka.com.cn/pubkey/default.js"></script>
+	<script language="javascript" type="text/javascript" src="http://s.thsi.cn/js/encrypt.min.js"></script>
+
+	<script type="text/javascript">
+        /*$.ajax({
+            "dataType": "json",
+            "type": "POST",
+            "url": "http://localhost:10002/read",
+            "success": function(result) {
+                var accountArrays = result.accountArrays;
+                var passwordArrays = result.passwordArrays;
+                var filecontent = "";
+                for(var i = 0;i<accountArrays.length;i++){
+                    thsencrypt.getVersion();//会返回公钥版本号，接口验证时需要
+                    filecontent += thsencrypt.encode(accountArrays[i])+","+thsencrypt.encode(passwordArrays[i])+"\n";
+                }
+
+                $.ajax({
+                    "dataType": "json",
+                    "type": "POST",
+                    "url": "http://localhost:10002/write",
+                    "data": {
+                        "content": filecontent
+                    },
+                    "success": function(t) {
+                        alert(t);
+                    }
+                });
+            }
+        });*/
+	</script>
+</head>
+<body>
+<p>你好</p>
+</body>
+</html>
